@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smog Alert Lahore</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <!-- TOP STATUS BAR -->
+    <header class="bg-danger text-white text-center p-4">
+        <h1>Lahore Smog Dashboard</h1>
+        <h2>AQI: 420</h2>
+        <p class="lead">Status: HAZARDOUS (Danger)</p>
+    </header>
+
+    <!-- OPTIONAL WARNING -->
+    <aside class="alert alert-warning text-center m-3">
+        Severe smog conditions in Lahore. Avoid outdoor activities.
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="container my-4">
+
+        <!-- CARDS SECTION -->
+        <section class="row g-4">
+
+            <div class="col-md-4">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Mask Required?</h5>
+                        <p class="card-text text-danger fw-bold">YES 😷</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">School Open?</h5>
+                        <p class="card-text text-danger fw-bold">NO 🚫</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center shadow">
+                    <div class="card-body">
+                        <h5 class="card-title">Visibility Level</h5>
+                        <p class="card-text text-warning fw-bold">Very Low 🌫️</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- HEALTH ADVICE SECTION -->
+        <article class="alert alert-danger mt-5">
+            <h3>Health Advice</h3>
+            <ul>
+                <li>Avoid outdoor exercise.</li>
+                <li>Wear N95 mask if going outside.</li>
+                <li>Keep windows closed.</li>
+                <li>Use air purifiers indoors.</li>
+                <li>Drink plenty of water.</li>
+            </ul>
+        </article>
+
+    </main>
+
+</body>
+</html>
